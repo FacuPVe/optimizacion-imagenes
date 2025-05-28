@@ -2,9 +2,9 @@ import LazyImage from "./LazyImage";
 
 const Ejercicio02 = () => {
     const images = [
-        "https://via.placeholder.com/600.webp",
-        "https://via.placeholder.com/600.png",
-        "https://via.placeholder.com/600.jpg",
+        "/ejercicio02-example-images/01-white-orange-house.jpg",
+        "/ejercicio02-example-images/02-nature-vivid-tree-sunlight-concept.jpg",
+        "/ejercicio02-example-images/03-portrait-collection-adorable-puppies.jpg",
     ]; return (
         <div className="p-6">
             <h1 className="text-3xl font-bold mb-4">Ejercicio 2: Lazy

@@ -30,13 +30,12 @@ const ImageEditor = () => {
         };
     }; return (
         <div className="text-center p-4">
-            <input type="file" onChange={handleImageUpload} className="mb-4"
-            />
+            <input type="file" onChange={handleImageUpload} className="mb-4 cursor-pointer" />
             <div>
-                <button onClick={() => applyFilter("grayscale")} className="bg-blue-500 text-white px-4 py-2 m-2 rounded">
+                <button onClick={() => applyFilter("grayscale")} className="bg-blue-500 text-white px-4 py-2 m-2 rounded cursor-pointer">
                     Escala de Grises
                 </button>
-                <button onClick={() => applyFilter("invert")} className="bg-red-500 text-white px-4 py-2 m-2 rounded">
+                <button onClick={() => applyFilter("invert")} className="bg-red-500 text-white px-4 py-2 m-2 rounded cursor-pointer">
                     Invertir Colores
                 </button>
             </div>
